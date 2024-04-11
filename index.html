@@ -1,168 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desa Parsuratan</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Kecamatan Balige</title>
 </head>
+
 <body>
     <span>
-        <header>
-            <div>
-                <nav>
-                    <div>
-                        <a href="/">
-                            <picture>
-                                <img src="img/logo_dinkes_full.png" alt="logo">
-                            </picture>
-                        </a>
-                    </div>
-                </nav>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#">Penjelasan</a>
-                        </li>
-                        <li>
-                            <a href="#">Wisata</a>
-                        </li>
-                        <li>
-                            <a href="#">Makanan dan Minuman</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+        <header class="navbar-container">
+            <nav>
+                <div class="logo">
+                    <a href="/">
+                        <picture>
+                            <img src="img/logo_dinkes_full.png" alt="logo">
+                        </picture>
+                    </a>
+                </div>
+            </nav>
+            <nav class="nav-list">
+                <ul>
+                    <li>
+                        <a href="#penjelasan">Penjelasan</a>
+                    </li>
+                    <li>
+                        <a href="#wisata">Wisata Balige</a>
+                    </li>
+                    <li>
+                        <a href="#makanandanminuman">Makanan dan Minuman</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
     </span>
     <main>
-        <div>
-            <article>
-                <h2>Penjelasan</h2>
-                <img src="img/Pasar_Balige.jpeg" alt="kota balige">
-                <p>Balige adalah sebuah kota di provinsi Sumatera Utara Indonesia dan merupakan ibu kota Kabupaten Toba. 
-                   Jaraknya 240 kilometer dari Medan. Balige juga menjadi tempat wisata melihat Danau Toba, danau kawah terbesar di dunia. 
-                   Balige berjarak 60 kilometer dari Parapat. Di Balige, terdapat banyak orang dengan asal usul suku Batak.Nama belakang 
-                   atau 'Marga' seseorang merupakan bagian penting seseorang dalam subkultur Batak mana pun. Orang Batak selalu mempunyai 
-                   nama keluarga. Nama marga atau nama keluarga diperoleh dari garis keturunan ayah (paternal) yang selanjutnya akan diwariskan 
-                   kepada keturunannya secara terus menerus.</p>
-            </article>
-        </div>
-        <div>
+        <div id="content">
             <div>
-                <span>
-                    <div>
-                        <div>
-                            <h2>Wisata</h2>
-                        </div>
-                        <ul>
-                            <li>
-                                <div>
-                                    <article>
-                                        <h3>Lumban Bul Bul</h3>
-                                        <img src="img/lumban-bul-bul.jpg" alt="lumban">
-                                        <p>Pantai Lumban Bulbul terletak di Sumatera Utara, lebih tepatnya di Desa Wisata Lumban Bulbul, kecamatan Balige, kabupaten Toba. 
-                                           Berbeda dari pantai pada umumnya, pantai air tawar ini berada di tepi sekitar Danau Toba. Di sepanjang pinggiran pantainya terdapat pasir putih 
-                                           yang menjadi ciri khas dari tempat wisata ini. Dari pantai ini, pengunjung dapat memandang keindahan Danau Toba, serta pemandangan bukit-bukit, 
-                                           dan melihat hijaunya pohon-pohon yang terlihat dari kejauhan.</p>
-                                        </article>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <article>
-                                        <h3>Museum TB Silalahi</h3>
-                                        <img src="img/Museum-TB-Silalahi.jpg" alt="museum">
-                                        <p>Museum Pribadi TB. Silalahi atau yang diberi nama Museum Jejak Langkah dan Sejarah TB. Silalahi yang dibangun sebagai wadah untuk memotivasi generasi 
-                                           muda untuk terus meraih cita-cita dengan melihat pengalaman TB. Silalahi mulai dari kecil sebagai anak pengembala kerbau sampai menjadi seorang Jenderal.</p>
-                                    </article>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <article>
-                                        <h3>Venue F1H2O</h3>
-                                        <img src="img/venue.jpg" alt="venue">
-                                        <p>Danau Toba di Provinsi Sumatera Utara telah ditetapkan oleh Presiden Joko Widodo (Jokowi) sebagai salah satu dari 5 kawasan Destinasi Pariwisata Super Prioritas. 
-                                           Dukungan infrastruktur dilakukan Kementerian PUPR secara terpadu untuk pengembangan DPSP Danau Toba melalui penataan kawasan, jalan dan jembatan, penyediaan air baku 
-                                           dan air bersih, pengelolaan sampah, sanitasi, dan perbaikan hunian penduduk (Sarana Hunian Pariwisata). Pada tanggal 24-26 Februaru 2023, Danau Toba tepatnya di 
-                                           Kecamatan Balige terpilih menjadi tuan rumah pagelaran F1H2O Powerboat. </p>
-                                    </article>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </span>
+                <article class="card">
+                    <h2 id="penjelasan">Penjelasan</h2>
+                    <img src="img/Pasar_Balige.jpeg" alt="kota balige" class="featured-image">
+                    <p>Balige adalah sebuah kota di provinsi Sumatera Utara Indonesia dan merupakan ibu kota Kabupaten
+                        Toba.
+                        Jaraknya 240 kilometer dari Medan. Balige juga menjadi tempat wisata melihat Danau Toba, danau
+                        kawah terbesar di dunia.
+                        Balige berjarak 60 kilometer dari Parapat. Di Balige, terdapat banyak orang dengan asal usul
+                        suku Batak.Nama belakang
+                        atau 'Marga' seseorang merupakan bagian penting seseorang dalam subkultur Batak mana pun. Orang
+                        Batak selalu mempunyai
+                        nama keluarga. Nama marga atau nama keluarga diperoleh dari garis keturunan ayah (paternal) yang
+                        selanjutnya akan diwariskan
+                        kepada keturunannya secara terus menerus.</p>
+                </article>
             </div>
-        </div>
-        <div>
             <div>
-                <span>
-                    <div>
-                        <div>
-                            <h2>Makanan dan Minuman</h2>
+                <div>
+                    <span>
+                        <div class="card">
+                            <div>
+                                <h2 id="wisata">Wisata Balige</h2>
+                            </div>
+                            <ul class="ul li">
+                                <li>
+                                    <div>
+                                        <article>
+                                            <h3>Lumban Bul Bul</h3>
+                                            <img src="img/lumban-bul-bul.jpg" alt="lumban" class="featured-image">
+                                            <p>Pantai Lumban Bulbul terletak di Sumatera Utara, lebih tepatnya di Desa
+                                                Wisata Lumban Bulbul, kecamatan Balige, kabupaten Toba.
+                                                Berbeda dari pantai pada umumnya, pantai air tawar ini berada di tepi
+                                                sekitar Danau Toba. Di sepanjang pinggiran pantainya terdapat pasir
+                                                putih
+                                                yang menjadi ciri khas dari tempat wisata ini. Dari pantai ini,
+                                                pengunjung dapat memandang keindahan Danau Toba, serta pemandangan
+                                                bukit-bukit,
+                                                dan melihat hijaunya pohon-pohon yang terlihat dari kejauhan.</p>
+                                        </article>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <article>
+                                            <h3>Museum TB Silalahi</h3>
+                                            <img src="img/Museum-TB-Silalahi.jpg" alt="museum" class="featured-image">
+                                            <p>Museum Pribadi TB. Silalahi atau yang diberi nama Museum Jejak Langkah
+                                                dan Sejarah TB. Silalahi yang dibangun sebagai wadah untuk memotivasi
+                                                generasi
+                                                muda untuk terus meraih cita-cita dengan melihat pengalaman TB. Silalahi
+                                                mulai dari kecil sebagai anak pengembala kerbau sampai menjadi seorang
+                                                Jenderal.</p>
+                                        </article>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <article>
+                                            <h3>Venue F1H2O</h3>
+                                            <img src="img/venue.jpg" alt="venue" class="featured-image">
+                                            <p>Danau Toba di Provinsi Sumatera Utara telah ditetapkan oleh Presiden Joko
+                                                Widodo (Jokowi) sebagai salah satu dari 5 kawasan Destinasi Pariwisata
+                                                Super Prioritas.
+                                                Dukungan infrastruktur dilakukan Kementerian PUPR secara terpadu untuk
+                                                pengembangan DPSP Danau Toba melalui penataan kawasan, jalan dan
+                                                jembatan, penyediaan air baku
+                                                dan air bersih, pengelolaan sampah, sanitasi, dan perbaikan hunian
+                                                penduduk (Sarana Hunian Pariwisata). Pada tanggal 24-26 Februaru 2023,
+                                                Danau Toba tepatnya di
+                                                Kecamatan Balige terpilih menjadi tuan rumah pagelaran F1H2O Powerboat.
+                                            </p>
+                                        </article>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                        <ul>
-                            <li>
-                                <div>
-                                    <h3>Damar Toba</h3>
-                                    <img src="img/damar.jpg" alt="damar">
-                                    <p>Damar Toba menawarkan akomodasi di Balige. Hotel bintang 3 ini menawarkan Wi-Fi gratis, layanan kamar, dan layanan pramutamu. Terdapat restoran yang menyajikan masakan Internasional, 
-                                       dan tersedia parkir pribadi gratis.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h3>Bistro Tepi Dana Toba</h3>
-                                    <img src="img/tepi-danau-bistro-balige.jpg" alt="bistro">
-                                    <p>Restoran ini menawarkan kali yang dimasak dengan enak dan sup lezat. Para tamu tidak begitu menyukai kopi di Tepi Danau Bistro. Staf yang ramah menyambut pengunjung sepanjang tahun. 
-                                       Jika Anda ingin merasakan layanan spektakuler, Anda harus mengunjungi tempat ini. Suasana sejuk membuat orang senang dan menarik lebih banyak klien. Tempat ini berada di peringkat 4,3 
-                                       dalam sistem penilaian Google.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </span>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <span>
+                        <div class="card">
+                            <div>
+                                <h2 id="makanandanminuman">Makanan dan Minuman</h2>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <h3>Damar Toba</h3>
+                                        <img src="img/damar.jpg" alt="damar" class="featured-image">
+                                        <p>Damar Toba menawarkan akomodasi di Balige. Hotel bintang 3 ini menawarkan
+                                            Wi-Fi gratis, layanan kamar, dan layanan pramutamu. Terdapat restoran yang
+                                            menyajikan masakan Internasional,
+                                            dan tersedia parkir pribadi gratis.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <h3>Bistro Tepi Dana Toba</h3>
+                                        <img src="img/tepi-danau-bistro-balige.jpg" alt="bistro" class="featured-image">
+                                        <p>Restoran ini menawarkan kali yang dimasak dengan enak dan sup lezat. Para
+                                            tamu tidak begitu menyukai kopi di Tepi Danau Bistro. Staf yang ramah
+                                            menyambut pengunjung sepanjang tahun.
+                                            Jika Anda ingin merasakan layanan spektakuler, Anda harus mengunjungi tempat
+                                            ini. Suasana sejuk membuat orang senang dan menarik lebih banyak klien.
+                                            Tempat ini berada di peringkat 4,3
+                                            dalam sistem penilaian Google.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </span>
+                </div>
             </div>
         </div>
 
         <aside>
-            <article>
-                <h2>Kecamatan Balige</h2>
-                <p>Ibukota Kabupaten Toba</p>
-                <figure>
-                    <img src="img/logo_dinkes_full.png" alt="toba">
-                    <figcaption>Kabupaten Toba</figcaption>
-                </figure>
+            <div class="profile card">
+                <article class="profile">
+                    <header>
+                        <h2>Kecamatan Balige</h2>
+                        <p>Ibukota Kabupaten Toba</p>
+                        <figure>
+                            <img src="img/logo_dinkes_full.png" alt="toba">
+                            <figcaption>Kabupaten Toba</figcaption>
+                        </figure>
+                    </header>
 
-                <section>
-                    <h3>Informasi Lainnya</h3>
-
-                    <table>
-                        <tr>
-                            <th>Negara</th>
-                            <td>Indonesia</td>
-                        </tr>
-                        <tr>
-                            <th>Kabupaten</th>
-                            <td>Toba</td>
-                        </tr>
-                        <tr>
-                            <th>Luas Total</th>
-                            <td>91,5 km<sup>2</sup></td>
-                        </tr>
-                        <tr>
-                            <th>Bahasa Daerah</th>
-                            <td>Batak</td>
-                        </tr>
-                    </table>
-                </section>
-            </article>
+                    <section>
+                        <header class="section header">
+                            <h3>Informasi Lainnya</h3>
+                        </header>
+                        <table>
+                            <tr>
+                                <th>Negara</th>
+                                <td>Indonesia</td>
+                            </tr>
+                            <tr>
+                                <th>Kabupaten</th>
+                                <td>Toba</td>
+                            </tr>
+                            <tr>
+                                <th>Luas Total</th>
+                                <td>91,5 km<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <th>Bahasa Daerah</th>
+                                <td>Batak</td>
+                            </tr>
+                        </table>
+                    </section>
+                </article>
+            </div>
         </aside>
     </main>
     <footer>
         <div>
-
+            <p>Proyek Akhir Belajar Dasar Pemrograman Web &#169; 2024, walkervalentinuss</p>
         </div>
     </footer>
 </body>
+
 </html>
