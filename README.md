@@ -1,5 +1,7 @@
 # proyek-akhir-dasproweb
 
+![alt text](https://github.com/walkervalentinuss/proyek-akhir-dasproweb/blob/main/img/homepage.png?raw=true)
+
 ## Menerapkan Penggunaan HTML
 1. Terdapat elemen **header**, **footer**, **main**, **article**, dan **aside** di berkas HTML.
 > Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep semantic HTML dalam menyusun struktur website).
